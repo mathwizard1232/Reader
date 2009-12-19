@@ -1,0 +1,16 @@
+int length(const char* str)
+{
+  if (str[0] == '\0')
+    return 0;
+  else
+    return 1 + length(str + 1);
+}
+
+int copy(const char* in, char* out) {
+  int pos = 0;
+  while (in[pos] != '\0') {
+    out[pos] = in[pos];
+    pos++;
+  }
+  out[pos] = '\0';
+}

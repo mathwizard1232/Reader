@@ -1,0 +1,7 @@
+#include "reader.cpp"
+
+int main()
+{
+  printf("All tests passed.");
+  return 0;
+}

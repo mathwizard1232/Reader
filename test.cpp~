@@ -1,0 +1,3 @@
+extern void fun(const char*)
+
+  fun("hello");
